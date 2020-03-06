@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tasks
+- [x] Build simple app component structure with mock data
+- [x] Use Statefull Classes
+- [x] Crud data from server
+- [ ] Create tests
+- [ ] **Refact**: to function components and React Hooks
+- [ ] **Refact**: Add Css in JS
+- [ ] **Refact**: Use layers pattern
+- [ ] **Refact**: Add typescript
+- [ ] **Refact**: Use redux
+
+
 ## Available Scripts
 
 In the project directory, you can run:

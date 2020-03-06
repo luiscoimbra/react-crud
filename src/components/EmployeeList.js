@@ -3,14 +3,8 @@ import Employee from './Employee'
 
 
 
-export default class EmployeeList extends React.Component {
-
-    render() {
-        return <div></div>
-        // return (
-        //     employees.map(employee => (
-        //         <Employee key={employee.id} employee={employee} />
-        //     ))
-        // )
-    }
-}
+export default ({employees, deleteAction}) => (
+    employees.map(employee => (
+        <Employee key={employee.id} employee={employee} deleteAction={deleteAction} />
+    ))
+)

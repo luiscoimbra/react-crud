@@ -1,14 +1,10 @@
 import React from 'react'
 
-export default ({text, onclick}) => {
-    
-    console.log()
+export default ({text, onclick}) => (
+    <button className="Button" onClick={onclick}>
+        {text}
+    </button>
+)
 
-    return (
-        <button onClick={onclick}>
-            {text}
-        </button>
-    )
-    
-}
+
     

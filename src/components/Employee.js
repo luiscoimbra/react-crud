@@ -1,13 +1,13 @@
 import React, {useState} from 'react'
 import Button from './Button'
 
-export default ({employee}) => {
+export default ({employee, deleteAction}) => {
 
     return (
-        <div>
+        <>
             {employee.name}
-            <Button text="Delete"></Button>
-        </div>
+            <Button text="Delete" onclick={() => deleteAction(employee.id)}></Button>
+        </>
     )
     
 }
